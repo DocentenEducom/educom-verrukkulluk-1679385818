@@ -1,4 +1,5 @@
 <?php
+echo "hi!"";
 
 require_once("lib/database.php");
 require_once("lib/artikel.php");
