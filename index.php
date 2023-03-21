@@ -1,5 +1,4 @@
 <?php
-echo "hi!"";
 
 require_once("lib/database.php");
 require_once("lib/artikel.php");
@@ -10,7 +9,8 @@ $art = new artikel($db->getConnection());
 
 
 /// VERWERK 
-$data = $art->selecteerArtikel(8);
+$data = $art->selecteerArtikel(2);
 
 /// RETURN
+echo "<pre>";
 var_dump($data);
