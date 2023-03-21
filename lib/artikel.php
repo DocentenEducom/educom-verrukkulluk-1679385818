@@ -18,6 +18,8 @@ class artikel {
 
         return($artikel);
 
+        /// KLAAR!
+
     }
 
 
